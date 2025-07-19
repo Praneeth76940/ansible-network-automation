@@ -1,0 +1,9 @@
+- name: Push config to Cisco routers
+  hosts: cisco_routers
+  gather_facts: no
+  tasks:
+    - name: Configure loopback interface
+      ios_config:
+        lines:
+          - interface Loopback3
+          - ip address 100.100.100.2 255.255.255.255
