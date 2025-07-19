@@ -1,5 +1,6 @@
 # 🚀 Network Automation with Ansible + GNS3
 
+
 This project automates Cisco router configuration using *Ansible* in a *GNS3 lab*. It pushes configs, backs up running configs, and simulates real-world automation from a control node (Ubuntu VM).
 ---
 
